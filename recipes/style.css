@@ -1,4 +1,4 @@
-/* Style.css */
+/* style.css */
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
 
 * {
@@ -9,6 +9,7 @@ body {
   text-align: center;
   max-width: 40rem;
   margin-inline: auto;
+  margin-block: 3rem;
   background-color: gray;
 }
 
@@ -16,17 +17,24 @@ h1 {
   font-size: 4rem;
 }
 
-p, li {
-  font-size: 1.5rem;
+h2 {
+  font-size: 2rem;
 }
 
-.recipe-link {
-  display: block;
-  font-size: 2rem;
+p, li {
+  font-size: 1.3rem;
+}
+
+.home-link {
+  font-size: 1.5rem;
   text-decoration: none;
   transition: font-size 0.2s ease-in-out;
 }
-.recipe-link:hover {
-  font-size: 2.1em;
+.home-link:hover {
+  font-size: 1.6rem;
   text-decoration: underline;
+}
+
+li {
+  text-align: left;
 }
